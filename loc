@@ -1,2 +1,3 @@
 #!/bin/sh
-cloc --quiet --yaml --not-match-d='^statics' . > dev/loc.yaml 
+cloc --quiet --yaml --not-match-d='^statics' . > .loc.yaml 
+git add .loc.yaml
