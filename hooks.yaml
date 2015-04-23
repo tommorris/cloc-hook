@@ -1,0 +1,6 @@
+-   id: locetc
+    name: LOC calculation
+    description: calculates LOC and other statistics
+    entry: loc
+    files: \.(js|rb|md|py|sh|txt|yaml|yml)$
+    language: script

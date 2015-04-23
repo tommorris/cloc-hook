@@ -1,0 +1,2 @@
+#!/bin/sh
+cloc --quiet --yaml --not-match-d='^statics' . > dev/loc.yaml 
